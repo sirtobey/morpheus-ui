@@ -1,6 +1,4 @@
-{{#link-to 'index'}}
-  {{fa-icon 'arrow-left'}}
-{{/link-to}}
+{{back-button route='index'}}
 
 {{#each model as |hourly|}}
   {{hourly.temp}}°C {{weather-icon name="day-sunny"}} {{hourly.hour}}
