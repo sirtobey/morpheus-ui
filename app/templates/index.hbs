@@ -1,0 +1,9 @@
+<div class="clock">
+  {{clock.hour}}:{{clock.minute}}:{{clock.second}}
+</div>
+<div class="weather">
+  {{#link-to 'weather'}}
+    {{weather-icon name='day-sunny'}}
+    20°C
+  {{/link-to}}
+</div>
