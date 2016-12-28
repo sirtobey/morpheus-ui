@@ -33,7 +33,8 @@ module.exports = function(environment) {
     },
 
     moment: {
-      outputFormat: 'L'
+      outputFormat: 'L',
+      includeLocales: ['de']
     }
   };
 
